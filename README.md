@@ -23,7 +23,7 @@ _ **rm -rf .git** - _разгитить репозиторий, где -r рек
 ```mermaid
 graph LR;
   untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
+  staged    -- "Changes to be committed в выводе git status"     --> tracked/comitted;
 
 %% стрелка без текста для примера: 
   A --> B;
