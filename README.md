@@ -19,3 +19,12 @@ _ **rm -rf .git** - _разгитить репозиторий, где -r рек
 * **git remote -v** - _убедиться в связке с удаленным репозиторием_ <br>
 
 * **git remote add origin** - _+ git@github.com + ссылка с GitHub_ <br>
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
